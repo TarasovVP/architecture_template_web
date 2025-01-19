@@ -16,6 +16,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Architecture_Templates_WebApp"
+rootProject.name = "Architecture_Templates_Web"
 include(":web")
 include(":shared")
