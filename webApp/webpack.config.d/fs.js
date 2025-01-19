@@ -3,5 +3,10 @@ config.resolve = {
         fs: false,
         path: false,
         crypto: false,
+        os: false,
     },
+},
+config.devServer = {
+    ...config.devServer,
+    historyApiFallback: true,
 };
